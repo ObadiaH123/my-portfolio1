@@ -166,7 +166,7 @@ html{
   } */
 
   
-
+/* styling the content page  */
   .content-box {
     background-image: url("/assets/images/bg10.jpg");
     box-sizing: content-box;
@@ -180,13 +180,17 @@ html{
     padding-left: 30%;
     color: #269999;
     font-size: 40px;
+    font-weight: 700;
     /* padding-right: 0; */
   }
 
-  .image{
-    /* width: 30%; */
-    padding-left: 55%;
-    padding-right: 0;
+  .about-img{
+    display: flex;
+    padding-top: 6rem;
+  }
+  .about{
+    display: block;
+    padding-left: 20%;
   }
 
   .port{
@@ -230,6 +234,29 @@ html{
     margin-right: auto;
     width: 50%;
    }
+
+
+.list ul {
+  list-style-type: none;
+  padding-left: 20px;
+  color: #666;
+}
+
+.list li {
+  color: black;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px
+}
+
+.list li:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: FontAwesome;
+  content: "\f058";
+  color: green;
+}
 
   /* <!---writing styles for the footer */
   .footer-basic {
