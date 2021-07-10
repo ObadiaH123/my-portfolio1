@@ -5,12 +5,14 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel='stylesheet' type='text/css' media='screen' href="./assets/css/index.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <script async src="//jsfiddle.net/Grobbert/5td4ogy1/2/embed/"></script>
 </head>
 <body>
+    <!-- navigation section -->
     <header class="l-header">
         <nav class="nav bd-grid">
             <div>
@@ -30,75 +32,129 @@
                       </form>
                 </ul>
             </div>
-
-            <!-- <div class="nav__toggle">
-                <i class='bx bx-menu'></i>
-            </div> -->
         </nav>
     </header>
+
     <div class="content-box">
         <div class="content">
-            <h3>Hi,</h3>
-            <h3>I 'am Kiprotich Bett Benard</h3>
-            <h3>A Junior Web developer | Stack developer</h3>
+            <h3>Hi,<br>I 'am <span style="font-weight: 700; color: olive;">Kiprotich Bett Benard</span><br>A Junior Web developer | Stack developer</h3>
+                     
         </div>
         <div class="image">
-            <img src="./assets/images/dp.png" alt="image" height="500px">
+            <img src="assets/images/dp.png" alt="image" height="500px">
         </div>
     </div>
-    <section id="portfolio">
-        <div class="top">
-        <h4>Portfolio</h4>
-        <h5>A showcase of my recent works</h4>
+    <!-- codes for project section  -->
+    <div class="port">
+        <h2 style="color: #046d04; font-size: 50px; font-weight: 700;">My <span style="color: olive;">Portfolio</span></h2>
+        <h3 style="color: darkslategray; font-size: 30px; font-weight: 700;">A Snapshots Of My Work</h3>
+    </div>
+
+<div class="projects">
+    <div class="row">
+        <div class="col-3">
+            <img src="assets/images/kitchen.png" width="100%" alt="image"/>
+            <div class="content">
+                <div class="text">
+                    <h4>Anitas kitchen</h4>
+                    <div class="lang">
+                    <h6>Languages Used:</h6>
+                    <div>
+                        <ul>
+                            <li>Html</li>
+                            <li>Css</li>
+                        </ul>
+                    </div>
+                    </div>
+
+                    <button type="button" class="btn btn-success">View Page</button>
+                </div>
+                
+              </div>
         </div>
-        <div class="projects">
-            <div class="project">
-                <h4>HILLTOP HOTEL</h4>
-                <p>This is a design for a hotel website. It allows guests to view and book available rooms for a
-                    stay of
-                    any period in the hotel.<br><br>Languages Used:
-                </p>
-                <ul>
-                    <li>Javascript</li>
-                    <li>Html</li>
-                    <li>CSS</li>
-                </ul>
-                <a id="viewLink" href="https://github.com/jLuseno161/Hill_top">View Project</a>
+
+        <div class="col-3">
+            <img src="./assets/images/hotel.png" width="100%" alt="image">
+            <div class="content">
+                <div class="text">
+                    <h4>Hotel Website</h4>
+                    <div class="lang">
+                    <h6>Languages Used:</h6>
+                    <div>
+                        <ul>
+                            <li>Html</li>
+                            <li>Css</li>
+                        </ul>
+                    </div>
+                    </div>
+
+                    <button type="button" class="btn btn-success">View Page</button>
+                </div>
+                
             </div>
-            <div class="project">
-                <h4>ANITAS KITCHEN</h4>
-                <p>A design for restaurants menu<br><br>Languages Used:
-                </p>
-                <ul>
-                    <li>Html</li>
-                    <li>CSS</li>
-                </ul>
-                <a id="viewLink" href="https://github.com/jLuseno161/Anitas-Kitchen">View Project</a>
-            </div>
-            <div class="project">
-                <h4>FAVORITE BAND</h4>
-                <p>A web article about my favorite band the Backstreet Boys'.<br><br>Languages Used:
-                </p>
-                <ul>
-                    <li>Html</li>
-                    <li>CSS</li>
-                </ul>
-                <a id="viewLink" href="https://github.com/jLuseno161/Favorite-band">View Project</a>
-            </div>
-            <div class="project">
-                <h4>CancerHub</h4>
-                <p>The mobile application allows people to confirm their health status, if they have any signs or
-                    symptoms of the cancer diseases in real-time. It also creates awareness on cancer diseases to the
-                    society.<br> <br>Languages Used:
-                </p>
-                <ul>
-                    <li>Java</li>
-                    <li>Firebase</li>
-                </ul>
-                <a id="viewLink" href="https://github.com/jLuseno161/CancerHub">View Project</a>
-            </div>
+
         </div>
-    </section>
+
+        <div class="col-3">
+            <img src="./assets/images/band1.png" width="100%" alt="image">
+            <div class="content">
+                <div class="text">
+                    <h4>Favourite Music Band</h4>
+                    <div class="lang">
+                    <h6>Languages Used:</h6>
+                    <div>
+                        <ul>
+                            <li>Html</li>
+                            <li>Css</li>
+                        </ul>
+                    </div>
+                    </div>
+                    <button type="button" class="btn btn-success">View Page</button>
+                </div>
+                
+              </div>
+        </div>
+
+        <div class="col-3">
+            <img src="./assets/images/mama.png" width="100%" alt="image">
+            <div class="content">
+                <div class="text">
+                    <h4>Mama Mboga Website</h4>
+                    <div class="lang">
+                    <h6>Languages Used:</h6>
+                    <div>
+                        <ul>
+                            <li>Html</li>
+                            <li>Css</li>
+                        </ul>
+                    </div>
+                    </div>
+                    <button type="button" class="btn btn-success">View Page</button>
+                </div>
+                
+              </div>
+        </div>
+
+    </div>
+</div>
+<!-- this code is for my education background and interest -->
+<div class="education">
+    <p style="color: red; padding: 2rem; font-size: 30px; font-weight: 700; text-align: center;">My Journey to being a Full Stack Developer</p>
+</div>
+<div class="row justify-content-evenly">
+    <div class="col-3">
+        <img class="center" src="./assets/images/work.png" width="50%" alt="icon">
+
+    </div>
+    <div class="col-3">
+        <img class="center" src="/assets/images/work1.png" width="40%" alt="icon">
+    </div>
+    <div class="col-3">
+        <img class="center" src="/assets/images/hobbies.png" width="40%" alt="icon">
+      </div>
+  </div>
+
+   <!-- this is codes for the footer section -->
     <div class="footer-basic">
         <footer>
             <div class="social">
