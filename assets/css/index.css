@@ -174,13 +174,12 @@ html{
     height: fit-content;
     background-size: cover;
     background-repeat: no-repeat;
-    /* margin-top: -20rem; */
   }
-  .content{
-    padding-top: 3rem;
-    padding-left: 35%;
+  .content h3{
+    padding-top: 4rem;
+    padding-left: 30%;
     color: #269999;
-    font-size: 2rem;
+    font-size: 40px;
     /* padding-right: 0; */
   }
 
@@ -190,10 +189,32 @@ html{
     padding-right: 0;
   }
 
-  .project{
-    display: flex;
-    justify-content: space-between;
+  .port{
+    display: block;
+    text-align: center;
   }
+
+  .text{
+    display: block;
+    margin: auto;
+  }
+
+  button{
+    float: right;
+    margin-right: 10%;
+
+  }
+
+  .col-3{
+    box-shadow: 3px 3px 3px 3px olive;
+    border-radius: 5%;
+  }
+
+  .lang{
+    display: block;
+    text-align: center;
+  }
+
 
   .one{
     border: aqua;
@@ -201,57 +222,15 @@ html{
 
   }
 
-  /* styling the portfolio section */
-  #portfolio {
-    padding-bottom: 50px;
-    margin-bottom: 50px;
-    background-color: white;
-  }
+  /* styling the education section */
 
-  .top, h1, h2{
-    text-align: center;
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+   }
 
-  }
-
-  
-  
-
-
-.projects {
-    margin: auto;
-    display: flex;
-    width: 80%;
-}
-
-.project h3 {
-    color: teal;
-}
-
-.project {
-    box-shadow: 0px 0px 25px rgb(37, 100, 100);
-    border-radius: 4px;
-    text-align: left;
-    flex: 1;
-    padding: 15px;
-    padding-bottom: 35px;
-    margin: 5px;
-    position: relative;
-}
-
-#viewLink,
-#viewLink:hover,
-#viewLink:visited {
-    color: white;
-    border: 1px solid;
-    padding: 8px;
-    text-decoration: none;
-    position: absolute;
-    padding-top: 10px;
-    font-weight: 600;
-    bottom: 8px;
-    border-radius: 5px;
-    background-color: rgb(4, 114, 114);
-}
   /* <!---writing styles for the footer */
   .footer-basic {
     padding: 40px 0;
@@ -314,6 +293,5 @@ html{
     color: #aaa;
   }
   
-
-
+  
 
