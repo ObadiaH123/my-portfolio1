@@ -168,7 +168,7 @@ html{
   
 /* styling the content page  */
   .content-box {
-    background-image: url(/bg10.jpg);
+    background-image: url("/bg10.jpg");
     box-sizing: content-box;
     width: auto;
     height: fit-content;
@@ -243,6 +243,7 @@ html{
 }
 
 .list li {
+  font-size: 20px;
   color: black;
   position: relative;
   padding-left: 20px;
@@ -257,6 +258,23 @@ html{
   content: "\f058";
   color: green;
 }
+
+hr {
+  width: 60%;
+  border: 3px solid aqua;
+  border-radius: 5px;
+  margin: auto;
+}
+/* this is the codes for styling contact form */
+  .contactform{
+    background-image: url(/assets/images/bg9.jpg);
+    padding-top: 2rem;
+  }
+
+  .mb-3{
+    font-size: 20px;
+    color: white;
+  }
 
   /* <!---writing styles for the footer */
   .footer-basic {
