@@ -35,7 +35,7 @@ a PC <br>
 text Editor <br>
 ## known bugs
 There are known bugs at the moment
-## Technologies used
+## Technologies used <br>
 * HTML <br>
 * CSS <br>
 * Bootstrap <br>
