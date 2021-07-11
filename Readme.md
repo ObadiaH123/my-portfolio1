@@ -28,17 +28,17 @@ My journey to being a web developer
 Get to contact section and leave a message
 <img src="assets/images/contacts.png" alt="contact page">
 ## Setup/Installation Requirements
-git
-browser
-internet
-a pc
-text Editor
+git <br>
+browser <br>
+internet <br>
+a PC <br>
+text Editor <br>
 ## known bugs
 There are known bugs at the moment
-## Technologies used
-* HTML
-* CSS
-* Bootstrap
-* Javascript
+## Technologies used <br>
+* HTML <br>
+* CSS <br>
+* Bootstrap <br>
+* Javascript <br>
 ## contact details
 You can reach to me through these contact details provided below: Email:kiprotichbernard780@gmail.com, Tel:+254702637380.
