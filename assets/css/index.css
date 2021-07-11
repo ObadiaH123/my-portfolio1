@@ -168,7 +168,7 @@ html{
   
 /* styling the content page  */
   .content-box {
-    background-image: url("/bg10.jpg");
+    background-image: url(/assets/bg10.jpg);
     box-sizing: content-box;
     width: auto;
     height: fit-content;
@@ -267,7 +267,9 @@ hr {
 }
 /* this is the codes for styling contact form */
   .contactform{
-    background-image: url(/assets/images/bg9.jpg);
+    background-image: url(/assets/bg8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 2rem;
   }
 
@@ -275,6 +277,41 @@ hr {
     font-size: 20px;
     color: white;
   }
+
+/* styling the skill */
+.skill-icon{
+  margin-top: 20px;
+  height: 700px;
+  display: flex;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.skill-services{
+  margin-top: 20px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+ 
+}
+.skill-box{
+  height: 720px;
+  width: 90%;
+  line-height: 3;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 8px 30px 0px rgba(153, 153, 153, 0.1);
+  font-size: 14px;
+
+}
+
+.skill-services h4{
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 2;
+  margin-left: 10px;
+  }
+
 
   /* <!---writing styles for the footer */
   .footer-basic {
