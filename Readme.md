@@ -41,4 +41,4 @@ There are known bugs at the moment
 * Bootstrap
 * Javascript
 ## contact details
-you can reach to me through these contact details: Email:pkobenj41@gmail.com, Tel:+254710383269
+You can reach to me through these contact details provided below: Email:kiprotichbernard780@gmail.com, Tel:+254702637380.
