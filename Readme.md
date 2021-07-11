@@ -13,17 +13,17 @@ Home page
 welcome to my portfolio Landing Page, navigate on my website
 <image src= "assets/images/landing page.png">
 <p>&nbsp;</p>
-projects
+<p style= "font-weight:700;">Projects</p>
 <p>&nbsp;</p>
 Have a look at some of my projects
 <img src="assets/images/projects.png" alt="projects">
 <p>&nbsp;</p>
-about section
+<p style= "font-weight:700;">About section</p>
 <p>&nbsp;</p>
 My journey to being a web developer
 <img src="assets/images/my journey.png" alt="about">
 <p>&nbsp;</p>
-contact section and footer
+<p style= "font-weight:700;">contact section and footer</p>
 <p>&nbsp;</p>
 Get to contact section and leave a message
 <img src="assets/images/contacts.png" alt="contact page">
