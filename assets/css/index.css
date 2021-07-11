@@ -278,6 +278,10 @@ hr {
     color: white;
   }
 
+  .tools_expert{
+    padding-top: 2rem;
+  }
+
 /* styling the skill */
 .skill-icon{
   margin-top: 20px;
